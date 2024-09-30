@@ -1,6 +1,26 @@
+import java.util.Scanner;
+
 public class ejercicio56 {
 
     public static void main(String[] args) {
-        System.out.println("mi primer programa de java en github");
+        int aprobado = 0, noaprobados = 0;
+        // notas de los estudiantes
+        Scanner leer = new Scanner(System.in);
+        System.out.println("digute cantidad de estudientes:");
+        int estudiantes = leer.nextInt();
+        double nota = 0.0;
+        for (int i = 1; i <= estudiantes; i++) {
+            System.out.println("nota del estudiante" + i + ":");
+            nota = leer.nextDouble();
+            if (nota >= 5.0) {
+                aprobado++;
+            } else {
+                noaprobados++;
+            }
+
+        }
+
+        System.out.println("aprobados:" + aprobado + "no aprobados:" + noaprobados);
+
     }
 }

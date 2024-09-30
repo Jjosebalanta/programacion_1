@@ -12,7 +12,7 @@ public class ejercicio56 {
         for (int i = 1; i <= estudiantes; i++) {
             System.out.println("nota del estudiante" + i + ":");
             nota = leer.nextDouble();
-            if (nota >= 5.0) {
+            if (nota >= 3.0) {
                 aprobado++;
             } else {
                 noaprobados++;
@@ -20,7 +20,8 @@ public class ejercicio56 {
 
         }
 
-        System.out.println("aprobados:" + aprobado + "no aprobados:" + noaprobados);
+        System.out.println("aprobados:" + aprobado );
+        System.out.println(" no aprobados:" + noaprobados);
 
     }
 }

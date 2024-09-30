@@ -6,6 +6,7 @@ public class ejercicioDowhile {
         String cad = "PROGAMACION i";
         int j = 1;
         do {
+
             System.out.println(cad);
             j++;
 
@@ -17,7 +18,7 @@ public class ejercicioDowhile {
         System.out.println(cad);
        }
        System.out.println("******************************");
-        for (int k = 1; i > 5; i++) {
+        for (int k = 1; k > 5; i++) {
             System.out.println(cad);
         }
     }

@@ -8,7 +8,7 @@ public class ejecicios3 {
             System.out.println("sentencia else ejecutada");
         }
         // *********************
-        System.out.println("--------");
+        System.out.println("1--------");
         int marks = 80;
 
         if (marks > 70)
@@ -19,7 +19,7 @@ public class ejecicios3 {
             System.out.println("falso");
         System.out.println("batter luck next tine");
         // ****************
-        System.out.println("----------");
+        System.out.println("2----------");
 
         int indian_score = 300, pakistan_score = 290;
 
@@ -28,13 +28,13 @@ public class ejecicios3 {
         else
             System.out.println("pakistan wins");
 
-        System.out.println("-------------------");
+        System.out.println("3-------------------");
 
         int indian_score2 = 3000;
         int pakistan_score2 = 290;
         System.out.println(indian_score2 > pakistan_score2 ? "indian wins" : "pakistan wins");
         //************ 
-         System.out.println("-----------------");
+         System.out.println("4-----------------");
 
          int aº= 7*3+6/2-5;
          int bº= 21-8+aº%3*11;
@@ -52,5 +52,12 @@ public class ejecicios3 {
             System.out.println("a is greater than b");
           } 
 
+          //************                                 
+          System.out.println("5---------------");
+          
+          if(true&&false&&true||false)
+           System.out.println(true);
+          else
+           System.out.println(false); 
     } 
 }

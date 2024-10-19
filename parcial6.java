@@ -13,20 +13,20 @@ public class parcial6 {
         double mediaMinima;
         double porcentajeErrores;
         while (true) {
-            System.out.println("Ingrese la temperatura máxima del día (0,0 para terminar):");
+            System.out.println("Ingrese la temperatura máxima del día (0.0 para terminar):");
 
             temperaturaMaxima = leer.nextDouble();
             System.out.println("Ingrese la temperatura mínima del día: ");
 
             temperaturaMinima = leer.nextDouble();
 
-            if (temperaturaMaxima == 0 && temperaturaMinima == 0) {
+            if (temperaturaMaxima == 0.0 && temperaturaMinima == 0.0) {
                 break;
             }
         }
         contadorDias++;
 
-        if (temperaturaMaxima == 9) {
+        if (temperaturaMaxima == 9) { //3189718810
             contadorErrores++;
         }
         if (temperaturaMinima == 9) {

@@ -14,7 +14,7 @@ public class parcial5 {
         String codigoArticulo;
         int numeroArticulos; 
         while (true) {
-            System.out.println("Ingrese el código del artículo (A/B) o 'X' para terminar: ");
+            System.out.println("Ingrese el código del artículo (A o B) o 'X' para terminar: ");
             codigoArticulo = leer.nextLine();
 
             if (codigoArticulo.equals("X")) {
@@ -27,6 +27,7 @@ public class parcial5 {
             System.out.println("Ingrese el número de artículos: ");
             System.out.println("precio del articulo A "); 
             numeroArticulos = leer.nextInt();
+
             leer.nextLine();
 
             

@@ -12,8 +12,25 @@ public class parcial4 {
 
          
           while (true) {
-            System.out.println("ingresa en nombre del alumno");
-            nombre=leer.nextLine();
+             System.out.println("ingresa en nombre del alumno");
+             nombre=leer.nextLine();
+
+             if (nombre.equals("***")) {
+              break; 
+             }
+             System.out.println("ingresa la nota de basic:");
+             basic=leer.nextDouble();
+
+             System.out.println("ingresa la nota de pascal:");
+             pascal=leer.nextDouble();
+
+             System.out.println("ingresa la nota de fortran ");
+             fortran=leer.nextDouble();
+             media=(basic+pascal+fortran)/3;
+             System.out.println("la media de "+nombre+" es "+media);
+
+             leer.nextLine();
           }
+          System.out.println("fin del listado");
     }
 }

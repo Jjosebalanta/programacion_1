@@ -6,12 +6,13 @@ public class parcial5 {
         Scanner leer = new Scanner(System.in);
 
         
-        int contadorA;
-        int contadorB ;
-        double totalA ;
-        double totalB ;
+        int contadorA=0;
+        int contadorB=0 ;
+        double totalA=0.0 ;
+        double totalB =0.0;
         double precioUnitario;
         String codigoArticulo;
+        int numeroArticulos; 
         while (true) {
             System.out.print("Ingrese el código del artículo (A/B) o 'X' para terminar: ");
             codigoArticulo = leer.nextLine();
@@ -24,7 +25,8 @@ public class parcial5 {
             System.out.print("Ingrese el precio unitario: ");
              precioUnitario = leer.nextDouble();
             System.out.print("Ingrese el número de artículos: ");
-            System.out.println("precio del articulo A "); = leer.nextInt();
+            System.out.println("precio del articulo A "); 
+            numeroArticulos = leer.nextInt();
             leer.nextLine();
 
             

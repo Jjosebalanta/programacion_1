@@ -11,7 +11,7 @@ public class parcial4 {
          System.out.println("ingresa los datos del alunno (para terminar escriba ***):");
 
          
-          while (nombre!="***") {
+          while (true) {
             System.out.println("ingresa en nombre del alumno");
             nombre=leer.nextLine();
           }

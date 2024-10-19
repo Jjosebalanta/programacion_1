@@ -25,7 +25,7 @@ public class parcial5 {
             System.out.println("Ingrese el precio unitario: ");
              precioUnitario = leer.nextDouble();
             System.out.println("Ingrese el número de artículos: ");
-            System.out.println("precio del articulo A "); 
+             
             numeroArticulos = leer.nextInt();
 
             leer.nextLine();
@@ -47,6 +47,6 @@ public class parcial5 {
         System.out.println("Número total de artículos B: " + contadorB);
         System.out.println("Importe total de artículos B: " + totalB);
 
-        
+        leer.nextInt();
     }
 }

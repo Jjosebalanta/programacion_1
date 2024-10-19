@@ -20,12 +20,13 @@ public class parcial6 {
 
             temperaturaMinima = leer.nextDouble();
 
-            if (temperaturaMaxima == 0.0 && temperaturaMinima == 0.0) {
+            if (temperaturaMaxima == 0.0&& temperaturaMinima == 0.0) {
                 break;
             }
-        }
+        
         contadorDias++;
 
+        }
         if (temperaturaMaxima == 9) { //3189718810
             contadorErrores++;
         }
@@ -35,13 +36,13 @@ public class parcial6 {
         sumaMaxima += temperaturaMaxima;
         sumaMinima += temperaturaMinima;
 
-        if (contadorDias > 0) {
+        if (contadorDias > 0.0) {
             mediaMaxima = sumaMaxima / contadorDias;
         } else {
             mediaMaxima = 0;
         }
         
-        if (contadorDias > 0) {
+        if (contadorDias > 0.0) {
             mediaMinima = sumaMinima / contadorDias;
         } else {
             mediaMinima = 0;
@@ -50,7 +51,7 @@ public class parcial6 {
        
        
 
-        if (contadorDias > 0) {
+        if (contadorDias > 0.0) {
             porcentajeErrores = (contadorErrores / (contadorDias * 2.0)) * 100;
         } else {
             porcentajeErrores = 0;
@@ -63,7 +64,7 @@ public class parcial6 {
         System.out.println("Número de errores (temperaturas de 9°): " + contadorErrores);
         System.out.println("Porcentaje de errores: " + porcentajeErrores + "%");
 
-        
-
     }
+
+    
 }

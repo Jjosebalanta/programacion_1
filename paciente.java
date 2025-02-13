@@ -24,7 +24,20 @@ public class paciente {
 
      System.out.println("USUARIO INGRSE EL PESO (UTILISE UN SEPARADOR) :");
      peso = leer.nextDouble();
-     System.out.println();
+     System.out.println("USUARIO INGRESE LA ALTURA (UTILISE SEPARADOR) : ");
+     altura = leer.nextDouble();
+     System.out.println("USUARIO ENGRESE AZUCAR EN SANGRE(dg / ml): ");
+     azucarensangre = leer.nextDouble;
+     
+     //medir tiempo de inicio (antes de resolvel una operacion ecuacion)
+     tiempoinicio = system.nanotime();
+      
+     //calcular imc
+     imc = (peso)/(altura*altura);
+
+     tiempofinal = system.nanotime();
+     tiempoejecucion = (tiempofinal)-(tiempoinicio);
+     System.out.println("");
 
 
         
